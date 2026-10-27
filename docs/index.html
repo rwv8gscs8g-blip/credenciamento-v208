@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sistema de Credenciamento V208</title>
+<style>
+:root{--fundo:#f7f8fa;--texto:#1d2733;--sec:#4a5866;--marca:#1f3a5f;--card:#fff;--borda:#dde3ea}
+@media (prefers-color-scheme:dark){:root{--fundo:#12171d;--texto:#e6ebf0;--sec:#a9b4bf;--marca:#8fb4e3;--card:#1b222a;--borda:#2c3540}}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fundo);color:var(--texto);line-height:1.55}
+header{background:#1f3a5f;color:#fff;padding:32px 16px}
+header div,main{max-width:860px;margin:0 auto}
+h1{margin:0 0 6px;font-size:1.8rem}
+header p{margin:0;opacity:.9}
+main{padding:24px 16px 48px}
+section{background:var(--card);border:1px solid var(--borda);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+h2{margin:0 0 10px;font-size:1.15rem;color:var(--marca)}
+.aviso{border-left:4px solid #c58a00}
+li{margin:4px 0}
+footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-size:.9rem}
+</style>
+</head>
+<body>
+<header><div>
+<h1>Sistema de Credenciamento V208</h1>
+<p>Gestão do credenciamento e do rodízio de prestadores de serviço em municípios (Lei nº 14.133/2021).</p>
+</div></header>
+<main>
+<section class="aviso">
+<h2>Situação atual</h2>
+<p><strong>Versão piloto 11.2</strong> (27/10/2026), em avaliação controlada por município. O código-fonte é <strong>privado</strong>: só os contribuidores autorizados têm acesso.</p>
+</section>
+<section>
+<h2>O que o sistema faz</h2>
+<ul>
+<li>Cadastro de entidades demandantes, empresas, atividades e serviços, com preços fixados pela Administração.</li>
+<li><strong>Rodízio objetivo por atividade</strong>: só o rodízio indica a empresa, e ninguém escolhe à mão.</li>
+<li>Pré-OS com prazo de resposta, aceite com empenho, Ordem de Serviço, recusa e cancelamentos.</li>
+<li>Medição final e única, avaliação com 10 critérios e pagamento só do que foi executado.</li>
+<li>Faltas, suspensões e reativação automáticas, conforme os parâmetros do edital.</li>
+<li>Dossiê por empresa, relatórios e trilha de auditoria de cada ato, com data e hora de Brasília.</li>
+</ul>
+</section>
+<section>
+<h2>Regras do rodízio, em resumo</h2>
+<ol>
+<li>Uma fila por atividade; a empresa da vez é a de menor posição entre as disponíveis.</li>
+<li>Quem aceita a Pré-OS recebe a Ordem de Serviço e vai para o fim da fila.</li>
+<li>Quem recusa, ou deixa o prazo vencer, perde a vez e recebe 1 falta.</li>
+<li>Média da avaliação abaixo da nota de corte gera 1 falta; a avaliação não move a fila.</li>
+<li>Ao atingir o limite de faltas, a empresa fica suspensa pelo prazo do edital e volta sozinha depois.</li>
+<li>Paga-se só o executado e medido, uma vez por Ordem de Serviço.</li>
+</ol>
+</section>
+<section>
+<h2>Como funciona no município</h2>
+<p>Programa para Windows 10/11 (64 bits), instalado pelo TI da Prefeitura. A base de dados fica no próprio computador, cifrada, e funciona sem internet. Senha e Termo de recuperação ficam só com a pessoa gestora.</p>
+</section>
+<section>
+<h2>Novidades da 11.2</h2>
+<ul>
+<li>Cancelamento de Ordem de Serviço (motivo obrigatório, sem falta, sem pagamento).</li>
+<li>Nomes dos campos alinhados em todas as telas.</li>
+<li>Diagnóstico local de erros, sem dados pessoais.</li>
+</ul>
+</section>
+<section>
+<h2>Contato</h2>
+<p>Para conhecer o projeto ou pedir acesso como contribuidor, fale com a equipe responsável pelo credenciamento do seu município.</p>
+</section>
+</main>
+<footer>Esta página não contém código-fonte. Atualizada em 27/10/2026.</footer>
+</body>
+</html>
