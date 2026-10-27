@@ -4,10 +4,13 @@ Sistema para a gestão do **credenciamento e do rodízio** de prestadores de ser
 
 **Página do projeto:** https://rwv8gscs8g-blip.github.io/credenciamento-v208/
 
-> O código-fonte é **privado**. Só os contribuidores autorizados têm acesso. Este repositório contém apenas a apresentação pública do projeto.
+> **Licença TPGL v1.1** — licença *source-available* para software de interesse público. Garante a transparência e a auditabilidade do código (Lei nº 12.527/2011, Lei de Acesso à Informação) e converte cada versão para a Apache License 2.0 quatro anos após a sua publicação. A validação do código é aberta aos contribuidores cadastrados. Texto completo da licença: [LICENSE](LICENSE).
+
+## Baixar
+**Versão atual: Beta 11.2.1 (piloto, 27/10/2026)** — [página de download](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/latest). Baixe o instalador e o LEIA-PRIMEIRO e confira o código SHA-256 antes de instalar.
 
 ## Situação atual
-- **Versão piloto 11.2** (27/10/2026), em avaliação controlada por município.
+- **Versão piloto 11.2.1** (27/10/2026), em avaliação controlada por município.
 - Programa para Windows 10/11, 64 bits. A base de dados fica no próprio computador, cifrada, e funciona sem internet.
 
 ## O que o sistema faz
@@ -30,6 +33,15 @@ Sistema para a gestão do **credenciamento e do rodízio** de prestadores de ser
 - Cancelamento de Ordem de Serviço (motivo obrigatório, sem falta, sem pagamento).
 - Nomes dos campos alinhados em todas as telas.
 - Diagnóstico local de erros, sem dados pessoais.
+
+## Licença
+O Sistema de Credenciamento V208 é distribuído sob a **TPGL v1.1** (Copyright © 2026 Luís Maurício Junqueira Zanin e contribuintes):
+- **Validação pública:** a licença assegura a transparência e a auditabilidade do sistema, em linha com a Lei de Acesso à Informação.
+- **Validação do código pelos contribuidores:** o código-fonte é auditado pelos contribuidores cadastrados no repositório do projeto. O acesso é concedido pela equipe responsável.
+- **Uso por órgão público:** o uso interno pela Administração é permitido nos termos da licença. O uso comercial concorrente é reservado.
+- **Abertura futura:** cada versão passa a valer como Apache License 2.0 quatro anos depois da sua publicação.
+
+Leia o texto completo em [LICENSE](LICENSE). Em caso de dúvida, vale o texto da licença.
 
 ## Contato
 Para conhecer o projeto ou pedir acesso como contribuidor, fale com a equipe responsável pelo credenciamento do seu município.
