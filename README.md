@@ -7,7 +7,12 @@ Sistema para a gestão do **credenciamento e do rodízio** de prestadores de ser
 > **Licença TPGL v1.1** — licença *source-available* para software de interesse público. Garante a transparência e a auditabilidade do código (Lei nº 12.527/2011, Lei de Acesso à Informação) e converte cada versão para a Apache License 2.0 quatro anos após a sua publicação. A validação do código é aberta aos contribuidores cadastrados. Texto completo da licença: [LICENSE](LICENSE).
 
 ## Baixar
-**Versão atual: Beta 11.2.1 (piloto, 27/10/2026)** — [página de download](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/latest). Baixe o instalador e o LEIA-PRIMEIRO e confira o código SHA-256 antes de instalar.
+**Versão atual: Beta 11.2.1 (piloto, 27/10/2026)** — Windows 10/11, 64 bits.
+
+- **[Baixar o instalador (212 MB)](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/Setup-Credenciamento-Beta11-x64-72f4a97b9ce33865.exe)**
+- [LEIA-PRIMEIRO](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/LEIA-PRIMEIRO.-.Instrucoes.de.instalacao.txt) — instruções de instalação e uso. Leia antes de instalar.
+- [Guia para o TI](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/GUIA-TI-instalacao-para-todos-os-usuarios.md) — instalação para todos os usuários.
+- [Código de conferência (SHA-256)](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/SHA256.txt): `11E6CE86257D33CD69F5AE07C49B2521E679C22AFD03A3B5F72703F415215D51`
 
 ## Situação atual
 - **Versão piloto 11.2.1** (27/10/2026), em avaliação controlada por município.
