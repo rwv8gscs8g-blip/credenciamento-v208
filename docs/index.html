@@ -12,6 +12,7 @@ header{background:#1f3a5f;color:#fff;padding:32px 16px}
 header div,main{max-width:860px;margin:0 auto}
 h1{margin:0 0 6px;font-size:1.8rem}
 header p{margin:0;opacity:.9}
+header nav{margin-top:16px}header a{color:#fff}section{scroll-margin-top:12px}a:focus-visible{outline:3px solid #c58a00;outline-offset:3px}
 main{padding:24px 16px 48px}
 section{background:var(--card);border:1px solid var(--borda);border-radius:10px;padding:18px 20px;margin:0 0 16px}
 h2{margin:0 0 10px;font-size:1.15rem;color:var(--marca)}
@@ -27,11 +28,45 @@ footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-s
 <header><div>
 <h1>Sistema de Credenciamento V208</h1>
 <p>Gestão do credenciamento e do rodízio de prestadores de serviço em municípios (Lei nº 14.133/2021).</p>
+<nav aria-label="Navegação do portal"><a href="#download">Download</a> · <a href="#tutoriais">Tutoriais</a> · <a href="#ajuda">Ajuda</a> · <a href="#historico-11-2-1">Histórico 11.2.1</a></nav>
 </div></header>
 <main>
-<section class="baixar">
-<h2>Baixar</h2>
-<p><strong>Versão atual: Beta 11.2.1</strong> (piloto, 27/10/2026) — Windows 10/11, 64 bits.</p>
+<section id="download" class="baixar">
+<h2>Download — Beta 11.3</h2>
+<p><strong>11.3 em preparação, ainda não publicada.</strong> Windows 10/11, 64 bits. A disponibilização depende da validação e da publicação pelo responsável pelo projeto.</p>
+<p><a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/tag/v208.0.0-beta.11.3">Release 11.3 — instalador e arquivos, quando publicados</a></p>
+<ul>
+<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/LEIA-PRIMEIRO-11.3.md">LEIA-PRIMEIRO da 11.3</a> — instruções de instalação e uso, previstas para acompanhar o instalador.</li>
+<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/SHA256.txt">SHA256.txt da 11.3</a> — código de conferência do instalador, previsto para o mesmo release.</li>
+<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/GUIA-TI-11.3.md">Guia para o TI da 11.3</a> — instalação no computador do município.</li>
+</ul>
+<p>Os links da 11.3 só funcionarão após a publicação. O nome final do instalador e seu SHA-256 serão os do release aprovado; nenhum hash de uma versão anterior serve para conferi-lo. Antes de instalar, leia as instruções e confira o arquivo com o SHA256.txt da mesma versão.</p>
+</section>
+<section id="tutoriais">
+<h2>Tutoriais</h2>
+<p>Este é o destino do botão “Vídeos tutoriais” do aplicativo. <strong>Os vídeos ainda estão em preparação.</strong> Enquanto isso, use as orientações abaixo e o LEIA-PRIMEIRO da versão instalada.</p>
+<ol>
+<li><strong>Criar uma base:</strong> informe os dados solicitados, guarde o Termo e consulte os dois números de grupo indicados nos campos de confirmação. Não confunda o código de recuperação com a identificação da base.</li>
+<li><strong>Documentos:</strong> em “Pastas e ajuda”, confira a pasta dos PDFs. Gere o PDF da tela desejada e use “Abrir / Imprimir” quando a faixa do documento aparecer.</li>
+<li><strong>Encerrar OS:</strong> acompanhe as etapas de medição, avaliação e fechamento na própria tela. Confira os dados antes de confirmar.</li>
+<li><strong>Fechar o aplicativo:</strong> siga o fluxo de backup e confira o destino informado. Se houver falha, leia as alternativas apresentadas pelo aplicativo antes de tentar novamente.</li>
+</ol>
+<p><a href="#ajuda">Ajuda e orientações para comunicar uma dificuldade</a></p>
+</section>
+<section id="ajuda">
+<h2>Ajuda</h2>
+<ul>
+<li><strong>Pastas e ajuda:</strong> mostra onde ficam bases e documentos e permite abrir as pastas disponíveis.</li>
+<li><strong>Uso nesta versão:</strong> apresenta orientações e limites da versão instalada, dentro do aplicativo.</li>
+<li><strong>Sobre:</strong> informa versão e build. Anote esses dados ao comunicar uma dificuldade à equipe responsável pelo credenciamento do município.</li>
+<li><strong>Central de testes:</strong> usa dados fictícios. Consulte o catálogo e o relatório da execução; um resultado de teste não substitui a validação humana da versão.</li>
+</ul>
+<p>Ao pedir ajuda, descreva a tela, o que tentou fazer e a mensagem exibida. Não envie senhas, código de recuperação, Termo ou base municipal por este portal. Preserve seus backups e guarde o Termo em local protegido.</p>
+<p>Este portal público distribui informações e versões publicadas; não contém o código-fonte do aplicativo.</p>
+</section>
+<section id="historico-11-2-1" class="baixar">
+<h2>Histórico — Beta 11.2.1</h2>
+<p><strong>Versão publicada: Beta 11.2.1</strong> (piloto, 27/10/2026) — Windows 10/11, 64 bits.</p>
 <p><a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/Setup-Credenciamento-Beta11-x64-72f4a97b9ce33865.exe">Baixar o instalador (212 MB)</a></p>
 <ul>
 <li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/LEIA-PRIMEIRO.-.Instrucoes.de.instalacao.txt">LEIA-PRIMEIRO</a> — instruções de instalação e uso. Leia antes de instalar.</li>
@@ -41,7 +76,7 @@ footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-s
 <p>Antes de instalar, confira se o código do arquivo baixado é igual ao acima (passo 2 do LEIA-PRIMEIRO). Se for diferente, não instale.</p>
 </section>
 <section class="aviso">
-<h2>Situação atual</h2>
+<h2>Situação da versão publicada</h2>
 <p><strong>Versão piloto 11.2.1</strong> (27/10/2026), em avaliação controlada por município. Licença <strong>TPGL v1.1</strong>, de validação pública; a validação do código é aberta aos contribuidores cadastrados.</p>
 </section>
 <section>
@@ -94,6 +129,6 @@ footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-s
 <p>Para conhecer o projeto ou pedir acesso como contribuidor, fale com a equipe responsável pelo credenciamento do seu município.</p>
 </section>
 </main>
-<footer>Licença TPGL v1.1. Esta página não contém código-fonte. Atualizada em 27/10/2026.</footer>
+<footer>Licença TPGL v1.1. Esta página não contém código-fonte. Preparação local de 31/10/2026; publicação da 11.3 pendente.</footer>
 </body>
 </html>
