@@ -1,0 +1,22 @@
+
+:root{--fundo:#f7f8fa;--texto:#1d2733;--sec:#4a5866;--marca:#1f3a5f;--card:#fff;--borda:#dde3ea}
+@media (prefers-color-scheme:dark){:root{--fundo:#12171d;--texto:#e6ebf0;--sec:#a9b4bf;--marca:#8fb4e3;--card:#1b222a;--borda:#2c3540}}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fundo);color:var(--texto);line-height:1.55}
+header{background:#1f3a5f;color:#fff;padding:32px 16px}
+header div,main{max-width:860px;margin:0 auto}
+h1{margin:0 0 6px;font-size:1.8rem}
+header p{margin:0;opacity:.9}
+header nav{margin-top:16px}header a{color:#fff}section{scroll-margin-top:12px}a:focus-visible{outline:3px solid #c58a00;outline-offset:3px}
+main{padding:24px 16px 48px}
+section{background:var(--card);border:1px solid var(--borda);border-radius:10px;padding:18px 20px;margin:0 0 16px}
+h2{margin:0 0 10px;font-size:1.15rem;color:var(--marca)}
+.aviso{border-left:4px solid #c58a00}
+.baixar{border-left:4px solid #2e7d32}
+.botao{display:inline-block;background:#1f3a5f;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+code{word-break:break-all;font-size:.85rem}
+li{margin:4px 0}
+footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-size:.9rem}
+
+a{color:var(--marca)}.botao,header a{color:#fff}pre{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--fundo);padding:12px;border-radius:6px}p,li{overflow-wrap:anywhere}h3{font-size:1.05rem}nav a{display:inline-block;padding:4px 2px}.pular{position:absolute;left:-9999px}.pular:focus{left:16px;top:8px;background:#fff;color:#1f3a5f;padding:8px}article{scroll-margin-top:16px}summary{cursor:pointer}table{width:100%;border-collapse:collapse}td,th{text-align:left;border:1px solid var(--borda);padding:8px}@media(max-width:480px){section{padding:14px}h1{font-size:1.5rem}}
+
+.downloads{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.download-card{border:2px solid var(--borda);border-radius:10px;padding:14px;min-width:0}.download-card h3{margin-top:0}.download-card h4{margin-bottom:6px}.download-card ol{padding-left:22px}.download-card .botao{display:block;text-align:center;padding:14px 10px}.sistema-atual{border-color:var(--marca);box-shadow:0 0 0 2px var(--marca)}.sugestao{font-weight:700;color:var(--marca)}.alternativa{font-size:.95rem}details>summary{font-weight:700;padding:6px 0}@media(max-width:760px){.downloads{grid-template-columns:1fr}}

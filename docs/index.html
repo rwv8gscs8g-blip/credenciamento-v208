@@ -4,67 +4,62 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sistema de Credenciamento V208</title>
-<style>
-:root{--fundo:#f7f8fa;--texto:#1d2733;--sec:#4a5866;--marca:#1f3a5f;--card:#fff;--borda:#dde3ea}
-@media (prefers-color-scheme:dark){:root{--fundo:#12171d;--texto:#e6ebf0;--sec:#a9b4bf;--marca:#8fb4e3;--card:#1b222a;--borda:#2c3540}}
-body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fundo);color:var(--texto);line-height:1.55}
-header{background:#1f3a5f;color:#fff;padding:32px 16px}
-header div,main{max-width:860px;margin:0 auto}
-h1{margin:0 0 6px;font-size:1.8rem}
-header p{margin:0;opacity:.9}
-header nav{margin-top:16px}header a{color:#fff}section{scroll-margin-top:12px}a:focus-visible{outline:3px solid #c58a00;outline-offset:3px}
-main{padding:24px 16px 48px}
-section{background:var(--card);border:1px solid var(--borda);border-radius:10px;padding:18px 20px;margin:0 0 16px}
-h2{margin:0 0 10px;font-size:1.15rem;color:var(--marca)}
-.aviso{border-left:4px solid #c58a00}
-.baixar{border-left:4px solid #2e7d32}
-.botao{display:inline-block;background:#1f3a5f;color:#fff;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:600}
-code{word-break:break-all;font-size:.85rem}
-li{margin:4px 0}
-footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-size:.9rem}
-</style>
+<link rel="stylesheet" href="estilo.css">
 </head>
-<body>
+<body onload="var u=navigator.userAgent,p=navigator.platform||'',s=/Win/i.test(p)?'windows':/Mac/i.test(p)&amp;&amp;!/iPhone|iPad|iPod/i.test(u)?'mac':/Linux/i.test(p)&amp;&amp;!/Android/i.test(u)?'linux':null;if(s){var c=document.getElementById('baixar-'+s);c.classList.add('sistema-atual');c.querySelector('.sugestao').hidden=false;}"><a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header><div>
 <h1>Sistema de Credenciamento V208</h1>
-<p>Gestão do credenciamento e do rodízio de prestadores de serviço em municípios (Lei nº 14.133/2021).</p>
-<nav aria-label="Navegação do portal"><a href="#download">Download</a> · <a href="#tutoriais">Tutoriais</a> · <a href="#ajuda">Ajuda</a> · <a href="#historico-11-2-1">Histórico 11.2.1</a></nav>
+<p>Organize o credenciamento e o rodízio de prestadores do seu município, do cadastro ao pagamento.</p>
+<nav aria-label="Navegação do portal"><a href="#download">Download</a> · <a href="#tutoriais">Tutoriais</a> · <a href="regras/index.html">Regras do sistema</a> · <a href="#ajuda">Ajuda</a> · <a href="#historico-11-2-1">Histórico 11.2.1</a></nav>
 </div></header>
-<main>
+<main id="conteudo">
 <section id="download" class="baixar">
-<h2>Download — Beta 11.3</h2>
-<p><strong>11.3 em preparação, ainda não publicada.</strong> Windows 10/11, 64 bits. A disponibilização depende da validação e da publicação pelo responsável pelo projeto.</p>
-<p><a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/tag/v208.0.0-beta.11.3">Release 11.3 — instalador e arquivos, quando publicados</a></p>
-<ul>
-<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/LEIA-PRIMEIRO-11.3.md">LEIA-PRIMEIRO da 11.3</a> — instruções de instalação e uso, previstas para acompanhar o instalador.</li>
-<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/SHA256.txt">SHA256.txt da 11.3</a> — código de conferência do instalador, previsto para o mesmo release.</li>
-<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/GUIA-TI-11.3.md">Guia para o TI da 11.3</a> — instalação no computador do município.</li>
-</ul>
-<p>Os links da 11.3 só funcionarão após a publicação. O nome final do instalador e seu SHA-256 serão os do release aprovado; nenhum hash de uma versão anterior serve para conferi-lo. Antes de instalar, leia as instruções e confira o arquivo com o SHA256.txt da mesma versão.</p>
+<h2>Baixar o Credenciamento</h2>
+<p>Tenha os cadastros, o rodízio e os documentos do município em um só lugar. Escolha o seu computador para baixar direto.</p>
+<p>Esta é uma versão de testes (beta 11.3): seus dados ficam no seu computador, e vale cuidar deles com uma cópia de segurança antes de atualizar e durante o uso.</p>
+<p>Se reconhecermos o seu sistema, a opção dele aparece em destaque; você também pode escolher outra.</p>
+<div class="downloads">
+<article id="baixar-windows" class="download-card">
+<h3>Windows</h3><p class="sugestao" hidden>Seu sistema — confira os requisitos abaixo.</p>
+<a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Setup-Credenciamento-Beta11-x64-cbba645a0277c28d.exe">Baixar para Windows</a>
+<p>Windows 10 ou 11, 64 bits.</p><h4>Como instalar</h4>
+<ol><li>Baixe o instalador.</li><li>Abra o arquivo e siga as instruções na tela.</li><li>Pronto: abra o Credenciamento para começar com dados de treinamento.</li></ol>
+</article>
+<article id="baixar-mac" class="download-card">
+<h3>Mac (chip Apple)</h3><p class="sugestao" hidden>Seu sistema: a versão para Mac chega em breve.</p>
+<p><strong>Em preparação.</strong> Estamos concluindo a assinatura digital da Apple, para o Credenciamento abrir e funcionar no Mac do jeito certo. Assim que estiver pronta, o botão de download aparece aqui.</p>
+</article>
+<article id="baixar-linux" class="download-card">
+<h3>Linux</h3><p class="sugestao" hidden>Seu sistema — confira os requisitos abaixo.</p>
+<a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.deb">Baixar para Linux (.deb)</a>
+<p>Para computadores Intel ou AMD de 64 bits, com Ubuntu 22.04 ou mais recente e outros sistemas que instalam pacotes .deb.</p><h4>Como instalar</h4>
+<ol><li>Baixe o arquivo .deb.</li><li>Abra o arquivo no instalador de programas do seu Linux e confirme a instalação.</li><li>Pronto: procure Credenciamento no menu de aplicativos.</li></ol>
+<p><a class="botao alternativa" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.AppImage">Baixar Linux em AppImage</a></p>
+<h4>Como instalar o AppImage</h4><ol><li>Baixe o AppImage.</li><li>Nas propriedades do arquivo, permita executar como programa.</li><li>Abra o arquivo. Pronto! Se ele não abrir, peça ajuda à equipe de TI.</li></ol>
+<p>No Linux, os documentos em PDF ficam guardados em Documentos › Credenciamento; a escolha de outra pasta e a abertura direta no leitor de PDF chegam em uma próxima versão.</p>
+</article>
+</div>
+<p>Vai atualizar? Guarde a cópia de segurança anterior: os dados convertidos nesta versão não abrem na 11.2. Para voltar, a equipe de TI precisa dessa cópia.</p>
 </section>
-<section id="tutoriais">
-<h2>Tutoriais</h2>
-<p>Este é o destino do botão “Vídeos tutoriais” do aplicativo. <strong>Os vídeos ainda estão em preparação.</strong> Enquanto isso, use as orientações abaixo e o LEIA-PRIMEIRO da versão instalada.</p>
-<ol>
-<li><strong>Criar uma base:</strong> informe os dados solicitados, guarde o Termo e consulte os dois números de grupo indicados nos campos de confirmação. Não confunda o código de recuperação com a identificação da base.</li>
-<li><strong>Documentos:</strong> em “Pastas e ajuda”, confira a pasta dos PDFs. Gere o PDF da tela desejada e use “Abrir / Imprimir” quando a faixa do documento aparecer.</li>
-<li><strong>Encerrar OS:</strong> acompanhe as etapas de medição, avaliação e fechamento na própria tela. Confira os dados antes de confirmar.</li>
-<li><strong>Fechar o aplicativo:</strong> siga o fluxo de backup e confira o destino informado. Se houver falha, leia as alternativas apresentadas pelo aplicativo antes de tentar novamente.</li>
-</ol>
-<p><a href="#ajuda">Ajuda e orientações para comunicar uma dificuldade</a></p>
-</section>
-<section id="ajuda">
+<section id="tutoriais"><h2>Tutoriais e regras para o dia a dia</h2><p>O botão “Vídeos tutoriais” do aplicativo chega a esta seção. Os vídeos estão em preparação; já há 14 tutoriais escritos, do primeiro acesso ao backup.</p><p><a class="botao" href="tutoriais/index.html">Abrir os 14 tutoriais</a></p><p><a href="regras/index.html">Regras do sistema explicadas por tema</a> — credenciamento, rodízio, Pré-OS, OS, medição, avaliação, pagamento, segurança e backup.</p><p>Para testar, use uma base de treinamento e dados fictícios. O índice dos tutoriais traz a sequência do cadastro ao pagamento e ao fechamento com backup.</p></section>
+<section><h2>O que há de novo na 11.3</h2><ul><li><strong>Inatividade:</strong> padrão de 8 horas, alterável ao criar ou abrir a base. Mouse e teclado renovam o prazo enquanto a sessão está válida. Depois de vencer, o próximo gesto pede senha da mesma base; não há troca de tela automática sem gesto.</li><li><strong>Termo:</strong> o código aparece uma vez, com chaves e rótulos dos grupos 1 a 8. Consulte os grupos pedidos e guarde o documento em local seguro.</li><li><strong>Esqueci minha senha:</strong> orienta a troca em Minha senha e a redefinição de outra pessoa pelo Gestor em Gestão de usuários. Recomenda-se ter dois Gestores. Recuperação pelo Termo ainda indisponível.</li><li><strong>PDFs e listas:</strong> busca por nome ou CNPJ no Dossiê, ajustes de seleção, teclado, datas e validação junto ao campo. Use Abrir ou Imprimir no leitor… após gerar PDF.</li><li><strong>Backup e saída:</strong> aguarde Backup salvo e conferido. Para sair com backup após inatividade, entre de novo e use Salvar e fechar. Sair da tela de senha não cria backup de fechamento.</li></ul></section><section class="aviso"><h2>Limites conhecidos dos testes</h2><p>Restauração completa pela interface, recuperação pelo Termo, Reiniciar faltas e encerramento de OS por expiração ainda indisponíveis. Revogação isolada não existe na interface: o procedimento indicado é inativar/inabilitar a empresa. Não há trabalho simultâneo na mesma base em várias máquinas.</p></section><section id="ajuda">
 <h2>Ajuda</h2>
 <ul>
 <li><strong>Pastas e ajuda:</strong> mostra onde ficam bases e documentos e permite abrir as pastas disponíveis.</li>
 <li><strong>Uso nesta versão:</strong> apresenta orientações e limites da versão instalada, dentro do aplicativo.</li>
-<li><strong>Sobre:</strong> informa versão e build. Anote esses dados ao comunicar uma dificuldade à equipe responsável pelo credenciamento do município.</li>
+<li><strong>Sobre:</strong> informa a versão e os dados técnicos. Anote esses dados ao comunicar uma dificuldade à equipe responsável pelo credenciamento do município.</li>
 <li><strong>Central de testes:</strong> usa dados fictícios. Consulte o catálogo e o relatório da execução; um resultado de teste não substitui a validação humana da versão.</li>
 </ul>
 <p>Ao pedir ajuda, descreva a tela, o que tentou fazer e a mensagem exibida. Não envie senhas, código de recuperação, Termo ou base municipal por este portal. Preserve seus backups e guarde o Termo em local protegido.</p>
 <p>Este portal público distribui informações e versões publicadas; não contém o código-fonte do aplicativo.</p>
 </section>
-<section id="historico-11-2-1" class="baixar">
+<section><details id="equipe-ti"><summary>Para a equipe de TI</summary>
+<p>Windows e Linux: build a26, pin cbba645a0277 (mesmo código-fonte da 11.3). Linux amd64: a conferência de integridade dos dois pacotes está no SHA256.txt. No Linux, o cofre de chaves usa o Secret Service da sessão (por exemplo, o chaveiro do GNOME): é preciso uma sessão gráfica normal, com o chaveiro desbloqueado. Mac: em preparação.</p>
+<ul><li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/LEIA-PRIMEIRO-11.3.md">Leia antes de instalar</a></li>
+<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/GUIA-TI-11.3.md">Guia de instalação para a equipe de TI</a></li>
+<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/SHA256.txt">Conferência de integridade — SHA256.txt</a></li>
+<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/tag/v208.0.0-beta.11.3">Arquivos e detalhes da versão</a></li></ul>
+<h3>Como conferir o instalador</h3><p>No PowerShell, na pasta onde baixou o arquivo, execute:</p><pre><code>Get-FileHash -Algorithm SHA256 -LiteralPath '.\Setup-Credenciamento-Beta11-x64-cbba645a0277c28d.exe'</code></pre><p>Compare todos os caracteres de Hash com:</p><p><code>962b07bbb96b793afb0f230b2f8f5b374dc14d35727b6ba4212900459d685e0f</code></p><p>Maiúsculas e minúsculas representam o mesmo valor. Se houver diferença, não instale; peça à TI a conferência do arquivo. Confira também o SHA256.txt da mesma release.</p><p>Antes de atualizar uma base, preserve o backup anterior. <strong>A base convertida ao perfil 109 não abre na 11.2.</strong> Reinstalar o programa antigo não desfaz a conversão; o retorno exige o backup anterior e procedimento validado pela TI.</p><p>Na conferência Windows da a26, 55 dos 70 casos do roteiro tiveram o resultado esperado e 15 ficaram pendentes. Isso não é aprovação integral. Foram declarados dois desvios adicionais de baixa gravidade: abrir pasta dos documentos pode não pedir senha com a sessão vencida; Encerrar do topo, com a confirmação de fechamento já aberta e a sessão vencida, pode oferecer Forçar/Continuar. Continue e faça novo gesto para entrar novamente. Uma frase de ajuda do Termo pode permanecer no passo seguinte.</p><div id="historico-11-2-1">
 <h2>Histórico — Beta 11.2.1</h2>
 <p><strong>Versão publicada: Beta 11.2.1</strong> (piloto, 27/10/2026) — Windows 10/11, 64 bits.</p>
 <p><a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/Setup-Credenciamento-Beta11-x64-72f4a97b9ce33865.exe">Baixar o instalador (212 MB)</a></p>
@@ -74,10 +69,10 @@ footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-s
 <li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/SHA256.txt">Código de conferência (SHA-256)</a> do instalador:<br><code>11E6CE86257D33CD69F5AE07C49B2521E679C22AFD03A3B5F72703F415215D51</code></li>
 </ul>
 <p>Antes de instalar, confira se o código do arquivo baixado é igual ao acima (passo 2 do LEIA-PRIMEIRO). Se for diferente, não instale.</p>
-</section>
+</div></details></section>
 <section class="aviso">
 <h2>Situação da versão publicada</h2>
-<p><strong>Versão piloto 11.2.1</strong> (27/10/2026), em avaliação controlada por município. Licença <strong>TPGL v1.1</strong>, de validação pública; a validação do código é aberta aos contribuidores cadastrados.</p>
+<p><strong>Beta 11.3 publicada como pré-release de testes</strong>, para uso controlado em uma máquina. Licença <strong>TPGL v1.1</strong>, de validação pública; a validação do código é aberta aos contribuidores cadastrados.</p>
 </section>
 <section>
 <h2>O que o sistema faz</h2>
@@ -95,15 +90,15 @@ footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-s
 <ol>
 <li>Uma fila por atividade; a empresa da vez é a de menor posição entre as disponíveis.</li>
 <li>Quem aceita a Pré-OS recebe a Ordem de Serviço e vai para o fim da fila.</li>
-<li>Quem recusa, ou deixa o prazo vencer, perde a vez e recebe 1 falta.</li>
+<li>Em situação regular, quem recusa ou deixa o prazo da Pré-OS vencer perde a vez e recebe uma falta de recusa. Impedimento cadastral pode suprimir esses efeitos.</li>
 <li>Média da avaliação abaixo da nota de corte gera 1 falta; a avaliação não move a fila.</li>
-<li>Ao atingir o limite de faltas, a empresa fica suspensa pelo prazo do edital e volta sozinha depois.</li>
-<li>Paga-se só o executado e medido, uma vez por Ordem de Serviço.</li>
+<li>Ao atingir o limite de faltas da origem, há suspensão conforme a política do documento. Ao fim do prazo, o sistema confere o retorno; outros impedimentos podem continuar.</li>
+<li>Registra-se o pagamento do executado e medido, uma vez por Ordem de Serviço. O aplicativo não transfere dinheiro.</li>
 </ol>
 </section>
 <section>
 <h2>Como funciona no município</h2>
-<p>Programa para Windows 10/11 (64 bits), instalado pelo TI da Prefeitura. A base de dados fica no próprio computador, cifrada, e funciona sem internet. Senha e Termo de recuperação ficam só com a pessoa gestora.</p>
+<p>Programa para Windows e Linux de 64 bits; a versão para Mac está em preparação. A equipe de TI da Prefeitura pode ajudar na instalação. A base de dados fica no próprio computador, cifrada, e funciona sem internet. Cada pessoa usa sua senha; o Termo de recuperação deve ficar protegido pela gestão da base.</p>
 </section>
 <section>
 <h2>Novidades da 11.2</h2>
@@ -129,6 +124,6 @@ footer{max-width:860px;margin:0 auto;padding:0 16px 32px;color:var(--sec);font-s
 <p>Para conhecer o projeto ou pedir acesso como contribuidor, fale com a equipe responsável pelo credenciamento do seu município.</p>
 </section>
 </main>
-<footer>Licença TPGL v1.1. Esta página não contém código-fonte. Preparação local de 31/10/2026; publicação da 11.3 pendente.</footer>
+<footer>Licença TPGL v1.1. Esta página não contém código-fonte. Portal atualizado em 04/11/2026 para a pré-release 11.3. A versão 11.2.1 permanece no histórico.</footer>
 </body>
 </html>
