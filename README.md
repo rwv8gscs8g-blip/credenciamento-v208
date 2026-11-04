@@ -7,16 +7,18 @@ Sistema para a gestão do **credenciamento e do rodízio** de prestadores de ser
 > **Licença TPGL v1.1** — licença *source-available* para software de interesse público. Garante a transparência e a auditabilidade do código (Lei nº 12.527/2011, Lei de Acesso à Informação) e converte cada versão para a Apache License 2.0 quatro anos após a sua publicação. A validação do código é aberta aos contribuidores cadastrados. Texto completo da licença: [LICENSE](LICENSE).
 
 ## Baixar
-**Versão atual: Beta 11.2.1 (piloto, 27/10/2026)** — Windows 10/11, 64 bits.
 
-- **[Baixar o instalador (212 MB)](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/Setup-Credenciamento-Beta11-x64-72f4a97b9ce33865.exe)**
-- [LEIA-PRIMEIRO](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/LEIA-PRIMEIRO.-.Instrucoes.de.instalacao.txt) — instruções de instalação e uso. Leia antes de instalar.
-- [Guia para o TI](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/GUIA-TI-instalacao-para-todos-os-usuarios.md) — instalação para todos os usuários.
-- [Código de conferência (SHA-256)](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.2.1/SHA256.txt): `11E6CE86257D33CD69F5AE07C49B2521E679C22AFD03A3B5F72703F415215D51`
+**Versão atual: Beta 11.3** (versão de testes). Baixe direto para o seu computador:
 
-## Situação atual
-- **Versão piloto 11.2.1** (27/10/2026), em avaliação controlada por município.
-- Programa para Windows 10/11, 64 bits. A base de dados fica no próprio computador, cifrada, e funciona sem internet.
+- **Windows 10 ou 11, 64 bits:** [baixar o instalador](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Setup-Credenciamento-Beta11-x64-cbba645a0277c28d.exe). Abra o arquivo e siga as instruções na tela.
+- **Linux Intel ou AMD de 64 bits:** [pacote .deb](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.deb) ou [AppImage](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.AppImage). Abra no instalador de programas do seu Linux e procure Credenciamento no menu.
+- **Mac com chip Apple:** em preparação. Estamos concluindo a assinatura digital da Apple.
+
+Prefere um passo a passo? A **[página do projeto](https://rwv8gscs8g-blip.github.io/credenciamento-v208/)** traz tutoriais e as regras explicadas por tema.
+
+## Como funciona
+
+O programa roda no computador do município. A base de dados fica nesse computador, cifrada, e funciona sem internet. Comece com uma base de treinamento e dados fictícios, e faça cópias de segurança durante o uso.
 
 ## O que o sistema faz
 - Cadastra entidades demandantes, empresas, atividades e serviços, com preços fixados pela Administração.
