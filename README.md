@@ -12,7 +12,7 @@ Sistema para a gestão do **credenciamento e do rodízio** de prestadores de ser
 
 - **Windows 10 ou 11, 64 bits:** [baixar o instalador](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Setup-Credenciamento-Beta11-x64-cbba645a0277c28d.exe). Abra o arquivo e siga as instruções na tela.
 - **Linux Intel ou AMD de 64 bits:** [pacote .deb](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.deb) ou [AppImage](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.AppImage). Abra no instalador de programas do seu Linux e procure Credenciamento no menu.
-- **Mac com chip Apple:** em preparação. Estamos concluindo a assinatura digital da Apple.
+- **Mac com chip Apple (M1 ou mais recente):** [baixar o arquivo para Mac](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Mac-208.11.3.dmg). Arraste para Aplicativos e abra por lá. Assinado e verificado pela Apple; ainda em teste.
 
 Prefere um passo a passo? A **[página do projeto](https://rwv8gscs8g-blip.github.io/credenciamento-v208/)** traz tutoriais e as regras explicadas por tema.
 
