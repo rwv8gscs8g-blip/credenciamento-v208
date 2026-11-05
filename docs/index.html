@@ -41,6 +41,14 @@
 <h4>Como instalar o AppImage</h4><ol><li>Baixe o AppImage.</li><li>Nas propriedades do arquivo, permita executar como programa.</li><li>Abra o arquivo. Pronto! Se ele não abrir, peça ajuda à equipe de TI.</li></ol>
 <p>No Linux, os documentos em PDF ficam guardados em Documentos › Credenciamento; a escolha de outra pasta e a abertura direta no leitor de PDF chegam em uma próxima versão.</p>
 </article>
+<article id="baixar-excel" class="download-card">
+<h3><svg class="icone-so" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="3" fill="#1D7A46"/><path fill="#fff" d="M6 7h5.2v2.8H6zM12.8 7H18v2.8h-5.2zM6 11.4h5.2v2.8H6zM12.8 11.4H18v2.8h-5.2zM6 15.8h5.2v2.4H6zM12.8 15.8H18v2.4h-5.2z"/></svg> Excel (planilha)</h3>
+<a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/excel-v207.248.0015-rc1/Credenciamento-V207_248_0015-RC1.zip">Baixar para Excel (.zip)</a>
+<p>A planilha de credenciamento, versão C9.2.1 em teste (Release Candidate 1). Ainda não é a versão homologada. Funciona em computador com Windows e Excel para desktop (Microsoft 365 ou Office 2019 ou mais novo); não funciona no Excel online, no Mac nem no celular.</p>
+<h4>Como instalar</h4>
+<ol><li>Baixe o arquivo e extraia o ZIP inteiro em uma pasta própria.</li><li>Dê dois cliques no arquivo .xltm. Se o Excel avisar sobre macros, clique em Habilitar conteúdo.</li><li>Siga o arquivo LEIA_PRIMEIRO, que explica a criação da base e o código de recuperação.</li></ol>
+<p>Use dados reais só depois de concluir os testes de validação da prefeitura.</p>
+</article>
 </div>
 <p>Vai atualizar? Guarde a cópia de segurança anterior: os dados convertidos nesta versão não abrem na 11.2. Para voltar, a equipe de TI precisa dessa cópia.</p>
 </section>
@@ -61,6 +69,7 @@
 <ul><li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/LEIA-PRIMEIRO-11.3.md">Leia antes de instalar</a></li>
 <li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/GUIA-TI-11.3.md">Guia de instalação para a equipe de TI</a></li>
 <li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/SHA256.txt">Conferência de integridade — SHA256.txt</a></li>
+<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/excel-v207.248.0015-rc1/SHA256-Excel-RC1.txt">Conferência de integridade do Excel — SHA256-Excel-RC1.txt</a></li>
 <li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/tag/v208.0.0-beta.11.3">Arquivos e detalhes da versão</a></li></ul>
 <h3>Como conferir o instalador</h3><p>No PowerShell, na pasta onde baixou o arquivo, execute:</p><pre><code>Get-FileHash -Algorithm SHA256 -LiteralPath '.\Setup-Credenciamento-Beta11-x64-cbba645a0277c28d.exe'</code></pre><p>Compare todos os caracteres de Hash com:</p><p><code>962b07bbb96b793afb0f230b2f8f5b374dc14d35727b6ba4212900459d685e0f</code></p><p>Maiúsculas e minúsculas representam o mesmo valor. Se houver diferença, não instale; peça à TI a conferência do arquivo. Confira também o SHA256.txt da mesma release.</p><p>Antes de atualizar uma base, preserve o backup anterior. <strong>A base convertida ao perfil 109 não abre na 11.2.</strong> Reinstalar o programa antigo não desfaz a conversão; o retorno exige o backup anterior e procedimento validado pela TI.</p><p>Na conferência Windows da a26, 55 dos 70 casos do roteiro tiveram o resultado esperado e 15 ficaram pendentes. Isso não é aprovação integral. Foram declarados dois desvios adicionais de baixa gravidade: abrir pasta dos documentos pode não pedir senha com a sessão vencida; Encerrar do topo, com a confirmação de fechamento já aberta e a sessão vencida, pode oferecer Forçar/Continuar. Continue e faça novo gesto para entrar novamente. Uma frase de ajuda do Termo pode permanecer no passo seguinte.</p><div id="historico-11-2-1">
 <h2>Histórico — Beta 11.2.1</h2>
