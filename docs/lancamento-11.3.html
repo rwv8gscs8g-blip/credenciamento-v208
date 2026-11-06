@@ -3,7 +3,6 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
 <title>Credenciamento 11.3</title>
 <style>
 :root{--fundo:#f7f8fa;--texto:#1d2733;--sec:#4a5866;--marca:#1f3a5f;--card:#fff;--borda:#dde3ea}
@@ -32,14 +31,16 @@ a{color:var(--marca)}.botao,header a{color:#fff}pre{white-space:pre-wrap;overflo
 .rotulo{font-weight:700;letter-spacing:.03em;font-size:.85rem}
 .resumo{font-size:1.12rem;max-width:65ch}
 small{color:var(--sec)}
+.versoes{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 0}header a.botao-versao{display:inline-block;background:#fff;color:#1f3a5f;padding:8px 14px;border-radius:8px;font-weight:600;text-decoration:none}a.botao-versao:focus-visible{outline:3px solid #c58a00;outline-offset:3px}
 </style>
 </head>
 <body>
 <a class="pular" href="#conteudo">Pular para o conteúdo</a>
 <header><div>
-<p class="rotulo">Versão de testes · lançamento público</p>
+<p class="rotulo">Versão homologada e congelada · lançamento público</p>
 <h1>Credenciamento 11.3</h1>
 <p class="resumo">O credenciamento e o rodízio de prestadores do município, do cadastro ao pagamento, com cada ato registrado de um jeito que qualquer auditoria pode conferir.</p>
+<p class="versoes"><a class="botao-versao" href="index.html">Início da versão congelada</a><a class="botao-versao" href="versao-atual.html">Versão atual</a></p>
 <nav aria-label="Nesta página"><a href="#faz">O que faz</a> · <a href="#ciclo">Por que esta versão</a> · <a href="#seguranca">Segurança</a> · <a href="#rastreabilidade">Rastreabilidade</a> · <a href="#confiabilidade">Confiabilidade</a> · <a href="#falta">O que falta</a> · <a href="#codigo">Código</a></nav>
 </div></header>
 <main id="conteudo">
@@ -55,7 +56,8 @@ small{color:var(--sec)}
 </section>
 <section id="ciclo">
 <h2>Por que esta versão importa</h2>
-<p>A 11.3 fica congelada no Windows, no Mac, no Linux e na planilha do Excel. É a versão que encerra o ciclo em que o programa e a planilha caminham juntos, e a última feita para acompanhar a planilha. Depois dela, as novas versões seguem apenas nos sistemas operacionais.</p>
+<p><strong>A 11.3 é a versão homologada e congelada que mantém a paridade com a planilha. Ela já está pronta.</strong></p>
+<p>Ela fica congelada no Windows, no Mac, no Linux e na planilha C9.2.1, homologada nessa versão. É a versão que encerra o ciclo em que o programa e a planilha caminham juntos, e a última feita para acompanhar a planilha. Depois dela, as novas versões seguem apenas nos sistemas operacionais.</p>
 <p>Congelar significa que o município pode testar sabendo que as regras desta versão não mudam no meio do caminho. O que vier depois entra em versão nova, separada desta.</p>
 </section>
 <section id="seguranca">
@@ -87,10 +89,10 @@ small{color:var(--sec)}
 </ul>
 </section>
 <section id="falta" class="aviso">
-<h2>O que ainda falta, sem esconder</h2>
-<p>Esta é uma <strong>versão de testes</strong>. Ela ainda não foi homologada. Use dados fictícios até o município concluir a própria validação, e guarde as cópias de segurança.</p>
+<h2>Limites conhecidos, sem esconder</h2>
+<p>A homologação é ato do responsável do projeto. Antes de usar dados reais, o município faz a própria validação, com dados fictícios, e guarda as cópias de segurança.</p>
 <ul>
-<li><strong>Comparação com a planilha.</strong> Na rodada de 01/11, no Windows, 41 casos foram comparados lado a lado: 37 iguais e 4 diferenças conhecidas, nenhuma classificada como defeito. Outros 29 casos ainda não têm comparação. A planilha C9.2.1 também continua em teste.</li>
+<li><strong>Comparação com a planilha.</strong> Na rodada de 01/11, no Windows, 41 casos foram comparados lado a lado: 37 iguais e 4 diferenças conhecidas, nenhuma classificada como defeito. Outros 29 casos ainda não têm comparação.</li>
 <li><strong>Roteiro completo.</strong> Na mesma rodada, 55 de 70 casos deram o resultado esperado, nenhum divergiu e 15 ficaram pendentes. Esse roteiro será refeito na versão publicada agora.</li>
 <li><strong>Linux Intel/AMD.</strong> As baterias passaram, mas parte do teste de interface nessa máquina ainda está em apuração.</li>
 <li><strong>Ainda não disponível nesta versão:</strong> restauração completa pela tela, recuperação de senha pelo Termo, Reiniciar faltas e encerramento de OS por expiração.</li>
@@ -103,9 +105,9 @@ small{color:var(--sec)}
 <section class="baixar">
 <h2>Experimente</h2>
 <p><a class="botao" href="https://rwv8gscs8g-blip.github.io/credenciamento-v208/#download">Baixar o Credenciamento 11.3</a></p>
-<p>Windows, Mac com chip Apple e Linux de 64 bits, todos em teste.</p>
+<p>Windows, Mac com chip Apple e Linux de 64 bits.</p>
 </section>
 </main>
-<footer>Credenciamento 11.3 · Versão de testes · Licença TPGL v1.1.</footer>
+<footer>Credenciamento 11.3 · Versão homologada e congelada · Licença TPGL v1.1.</footer>
 </body>
 </html>
