@@ -8,11 +8,11 @@ Sistema para a gestão do **credenciamento e do rodízio** de prestadores de ser
 
 ## Baixar
 
-**Versão atual: Beta 11.3** (versão de testes). Baixe direto para o seu computador:
+**Versão atual: 11.3, homologada e congelada, que mantém a paridade com a planilha C9.2.1.** Baixe direto para o seu computador:
 
-- **Windows 10 ou 11, 64 bits:** [baixar o instalador](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Setup-Credenciamento-Beta11-x64-cbba645a0277c28d.exe). Abra o arquivo e siga as instruções na tela.
+- **Windows 10 ou 11, 64 bits:** [baixar o instalador](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Setup-Credenciamento-Beta11-x64-844cd83a43984a1d.exe). Abra o arquivo e siga as instruções na tela.
 - **Linux Intel ou AMD de 64 bits:** [pacote .deb](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.deb) ou [AppImage](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.AppImage). Abra no instalador de programas do seu Linux e procure Credenciamento no menu.
-- **Mac com chip Apple (M1 ou mais recente):** [baixar o arquivo para Mac](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Mac-208.11.3.dmg). Arraste para Aplicativos e abra por lá. Assinado e verificado pela Apple; ainda em teste.
+- **Mac com chip Apple (M1 ou mais recente):** [baixar o arquivo para Mac](https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Mac-208.11.3.dmg). Arraste para Aplicativos e abra por lá. Assinado e verificado pela Apple.
 
 Prefere um passo a passo? A **[página do projeto](https://rwv8gscs8g-blip.github.io/credenciamento-v208/)** traz tutoriais e as regras explicadas por tema.
 
@@ -35,11 +35,6 @@ O programa roda no computador do município. A base de dados fica nesse computad
 4. Média da avaliação abaixo da nota de corte gera 1 falta. A avaliação não move a fila.
 5. Ao atingir o limite de faltas de uma origem, a empresa fica suspensa pelo prazo do edital e volta sozinha depois.
 6. Paga-se só o executado e medido, uma vez por OS.
-
-## Novidades da 11.2
-- Cancelamento de Ordem de Serviço (motivo obrigatório, sem falta, sem pagamento).
-- Nomes dos campos alinhados em todas as telas.
-- Diagnóstico local de erros, sem dados pessoais.
 
 ## Licença
 O Sistema de Credenciamento V208 é distribuído sob a **TPGL v1.1** (Copyright © 2026 Luís Maurício Junqueira Zanin e contribuintes):
