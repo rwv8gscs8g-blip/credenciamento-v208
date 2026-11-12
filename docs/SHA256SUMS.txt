@@ -1,0 +1,4 @@
+d797e4070b6f5d29ee26272cfaa6f5dab65b8b2dfae53281e03398faedad4ae1  Credenciamento-12-Linux-amd64-rc4t10.AppImage
+85ab8ecad2c7d11a5ee7f5a8bbbba32737f1201367dddd394fb1cb1bebf372c3  Credenciamento-12-Linux-amd64-rc4t10.deb
+9ce56578ac3f0e993fdee9d9eb58b0c9eb0e2e7430fd0f50c79f7f043a2e91fb  Credenciamento-12-Mac-rc4t10.dmg
+a3d2ec1dc77da0aca9de72decfbfd2f4b0689c8fc8a2a80920ef5b0d4cfd4d08  Credenciamento-12-Windows-x64-rc4t10.exe

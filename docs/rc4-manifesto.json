@@ -1,0 +1,33 @@
+{
+  "version": "208.12.0",
+  "tag": "v208.12.0-rc4",
+  "source_sha": "e4d982f992da7780a8ef0c6ce16d2c686c371903",
+  "congelamento": null,
+  "recibo_sha256": "29f4b56da293a69f30e0ce33b022f4a3f6153e81852a79c88e66ec267c829a7e",
+  "assets": {
+    "MAC": {
+      "name": "Credenciamento-12-Mac-rc4t10.dmg",
+      "sha256": "9ce56578ac3f0e993fdee9d9eb58b0c9eb0e2e7430fd0f50c79f7f043a2e91fb",
+      "bytes": 12511539,
+      "source_sha": "e4d982f992da7780a8ef0c6ce16d2c686c371903"
+    },
+    "LINUX_DEB": {
+      "name": "Credenciamento-12-Linux-amd64-rc4t10.deb",
+      "sha256": "85ab8ecad2c7d11a5ee7f5a8bbbba32737f1201367dddd394fb1cb1bebf372c3",
+      "bytes": 13340860,
+      "source_sha": "e4d982f992da7780a8ef0c6ce16d2c686c371903"
+    },
+    "LINUX_APPIMAGE": {
+      "name": "Credenciamento-12-Linux-amd64-rc4t10.AppImage",
+      "sha256": "d797e4070b6f5d29ee26272cfaa6f5dab65b8b2dfae53281e03398faedad4ae1",
+      "bytes": 90814968,
+      "source_sha": "e4d982f992da7780a8ef0c6ce16d2c686c371903"
+    },
+    "WINDOWS": {
+      "name": "Credenciamento-12-Windows-x64-rc4t10.exe",
+      "sha256": "a3d2ec1dc77da0aca9de72decfbfd2f4b0689c8fc8a2a80920ef5b0d4cfd4d08",
+      "bytes": 225013357,
+      "source_sha": "e4d982f992da7780a8ef0c6ce16d2c686c371903"
+    }
+  }
+}
