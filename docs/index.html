@@ -1,150 +1,42 @@
 <!doctype html>
 <html lang="pt-BR">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sistema de Credenciamento V208</title>
-<link rel="stylesheet" href="estilo.css">
-</head>
-<body onload="var u=navigator.userAgent,p=navigator.platform||'',s=/Win/i.test(p)?'windows':/Mac/i.test(p)&amp;&amp;!/iPhone|iPad|iPod/i.test(u)?'mac':/Linux/i.test(p)&amp;&amp;!/Android/i.test(u)?'linux':null;if(s){var c=document.getElementById('baixar-'+s);c.classList.add('sistema-atual');c.querySelector('.sugestao').hidden=false;}"><a class="pular" href="#conteudo">Pular para o conteúdo</a>
-<header><div>
-<h1>Sistema de Credenciamento V208</h1>
-<p>Organize o credenciamento e o rodízio de prestadores do seu município, do cadastro ao pagamento.</p>
-<p class="versoes"><a class="botao-versao" href="index.html" aria-current="page">Início da versão congelada</a><a class="botao-versao" href="versao-atual.html">Versão atual</a></p>
-<nav aria-label="Navegação do portal"><a href="#situacao">Versão 11.3</a> · <a href="#download">Download</a> · <a href="#ferramenta">A ferramenta</a> · <a href="#tutoriais">Tutoriais</a> · <a href="regras/index.html">Regras do sistema</a> · <a href="#ajuda">Ajuda</a></nav>
-</div></header>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Credenciamento 12 — RC4 para testes</title><link rel="stylesheet" href="estilo.css"></head>
+<body><a class="pular" href="#conteudo">Pular para o conteúdo</a>
+<header><div><a class="marca" href="index.html" aria-label="Credenciamento 12 — início"><img src="marca/04_logo_horizontal.svg" alt="Credenciamento — Gestão de serviços" width="1260" height="360"></a><p class="edicao">Credenciamento 12 · RC4 para testes</p><h1>Gestão de serviços do município</h1><p>Organize o credenciamento e o rodízio de prestadores do município, do cadastro ao pagamento.</p>
+<nav aria-label="Navegação do portal"><a href="#situacao">RC4</a> · <a href="#download">Downloads</a> · <a href="#ferramenta">A ferramenta</a> · <a href="#tutoriais">Tutoriais</a> · <a href="#ajuda">Relatar problema</a> · <a href="#saas">SaaS</a></nav><p class="acoes"><a class="botao" href="#download">Ver downloads da RC4</a><a class="botao secundario" href="#novidades">O que mudou</a></p></div></header>
 <main id="conteudo">
-<section id="situacao" class="homologada">
-<h2>Versão 11.3: homologada e congelada</h2>
-<p><strong>A 11.3 é a versão homologada e congelada que mantém a paridade com a planilha. Ela já está pronta.</strong></p>
-<p>Ela fica congelada no Windows, no Mac, no Linux e na planilha C9.2.1, homologada nessa versão. A homologação é ato do responsável do projeto. As regras desta versão não mudam mais; o que vier depois entra em versão nova, separada desta, e segue apenas nos sistemas operacionais.</p>
-<p><a class="botao" href="lancamento-11.3.html">Conheça a versão 11.3</a></p>
-</section>
-<section id="download" class="baixar">
-<h2>Baixar o Credenciamento</h2>
-<p>Tenha os cadastros, o rodízio e os documentos do município em um só lugar. Escolha o seu computador para baixar direto.</p>
-<p>Seus dados ficam no seu computador, e vale cuidar deles com uma cópia de segurança antes de atualizar e durante o uso.</p>
-<p>Se reconhecermos o seu sistema, a opção dele aparece em destaque; você também pode escolher outra.</p>
-<div class="downloads">
-<article id="baixar-windows" class="download-card">
-<h3><svg class="icone-so" viewBox="0 0 24 24" aria-hidden="true"><path fill="#0078D4" d="M3 5.1 10.4 4v7.3H3zM11.4 3.9 21 2.5v8.8h-9.6zM3 12.7h7.4V20L3 18.9zM11.4 12.7H21v8.8l-9.6-1.4z"/></svg>Windows</h3><p class="sugestao" hidden>Seu sistema — confira os requisitos abaixo.</p>
-<a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Setup-Credenciamento-Beta11-x64-844cd83a43984a1d.exe">Baixar para Windows</a>
-<p>Windows 10 ou 11, 64 bits.</p><h4>Como instalar</h4>
-<ol><li>Baixe o instalador.</li><li>Abra o arquivo e siga as instruções na tela.</li><li>Pronto: abra o Credenciamento para começar com dados de treinamento.</li></ol>
-<p><strong>Em redes corporativas</strong> (na Rede Sebrae, por exemplo): clique com o botão direito no instalador e escolha <strong>Executar como administrador</strong>. Assim o programa fica instalado para todos os usuários do computador. A base é criada depois, na conta de quem vai operar o sistema.</p>
-</article>
-<article id="baixar-mac" class="download-card">
-<h3><svg class="icone-so" viewBox="0 0 24 24" aria-hidden="true"><path fill="#1d1d1f" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>Mac (chip Apple)</h3><p class="sugestao" hidden>Seu sistema — confira os requisitos abaixo.</p>
-<a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Mac-208.11.3.dmg">Baixar para Mac</a>
-<p>Mac com chip Apple (M1 ou mais recente). Este arquivo não é para Mac Intel. Já vem assinada e verificada pela Apple.</p><h4>Como instalar</h4>
-<ol><li>Baixe o arquivo para Mac.</li><li>Abra o arquivo e arraste o Credenciamento para Aplicativos.</li><li>Abra o Credenciamento em Aplicativos. Se o Mac pedir uma confirmação na primeira vez, confirme.</li></ol>
-<p>No Mac, os documentos em PDF ficam guardados em Documentos › Credenciamento. Depois de gerar o PDF, use Abrir PDF para ver o documento no leitor; para imprimir, use Command+P no leitor. A escolha de outra pasta chega em uma próxima versão.</p>
-</article>
-<article id="baixar-linux" class="download-card">
-<h3><svg class="icone-so" viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="13" rx="7" ry="9" fill="#1d1d1f"/><ellipse cx="12" cy="15" rx="4.4" ry="6" fill="#fff"/><circle cx="9.8" cy="7.6" r="1.3" fill="#fff"/><circle cx="14.2" cy="7.6" r="1.3" fill="#fff"/><circle cx="10" cy="7.8" r=".6" fill="#1d1d1f"/><circle cx="14" cy="7.8" r=".6" fill="#1d1d1f"/><path fill="#F5A623" d="M10.2 9.4h3.6L12 11.4zM5.5 21.5c0-1.6 1.5-2.6 3.5-2.2l1 2.7zM18.5 21.5c0-1.6-1.5-2.6-3.5-2.2l-1 2.7z"/></svg>Linux</h3><p class="sugestao" hidden>Seu sistema — confira os requisitos abaixo.</p>
-<a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.deb">Baixar para Linux (.deb)</a>
-<p>Para computadores Intel ou AMD de 64 bits, com Ubuntu 22.04 ou mais recente e outros sistemas que instalam pacotes .deb.</p><h4>Como instalar</h4>
-<ol><li>Baixe o arquivo .deb.</li><li>Abra o arquivo no instalador de programas do seu Linux e confirme a instalação.</li><li>Pronto: procure Credenciamento no menu de aplicativos.</li></ol>
-<p><strong>Em redes corporativas</strong> (na Rede Sebrae, por exemplo): o pacote .deb fica instalado para todos os usuários do computador. A instalação pede a senha de administrador; se você não a tiver, peça à equipe de TI.</p>
-<p>Se você já tinha instalado uma versão anterior, o instalador de programas pode não trocar o programa. Nesse caso, peça à equipe de TI para instalar com <code>sudo dpkg -i</code> e o nome do arquivo.</p>
-<p><a class="botao alternativa" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/Credenciamento-Linux-208.11.3-amd64.AppImage">Baixar Linux em AppImage</a></p>
-<h4>Como instalar o AppImage</h4><ol><li>Baixe o AppImage.</li><li>Nas propriedades do arquivo, permita executar como programa.</li><li>Abra o arquivo. Pronto! Se ele não abrir, peça ajuda à equipe de TI.</li></ol>
-<p>No Linux, os documentos em PDF ficam guardados em Documentos › Credenciamento. Depois de gerar o PDF, use Abrir PDF para ver o documento no leitor; para imprimir, use Ctrl+P no leitor. A escolha de outra pasta chega em uma próxima versão.</p>
-</article>
-<article id="baixar-excel" class="download-card">
-<h3><svg class="icone-so" viewBox="0 0 24 24" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="3" fill="#1D7A46"/><path fill="#fff" d="M6 7h5.2v2.8H6zM12.8 7H18v2.8h-5.2zM6 11.4h5.2v2.8H6zM12.8 11.4H18v2.8h-5.2zM6 15.8h5.2v2.4H6zM12.8 15.8H18v2.4h-5.2z"/></svg> Excel (planilha)</h3>
-<a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/excel-v207.248.0015-rc1/Credenciamento-V207_248_0015-RC1.zip">Baixar para Excel (.zip)</a>
-<p>A planilha de credenciamento, versão C9.2.1, homologada e congelada. Funciona em computador com Windows e Excel para desktop (Microsoft 365 ou Office 2019 ou mais novo); não funciona no Excel online, no Mac nem no celular.</p>
-<h4>Como instalar</h4>
-<ol><li>Baixe o arquivo e extraia o ZIP inteiro em uma pasta própria.</li><li>Dê dois cliques no arquivo .xltm. Se o Excel avisar sobre macros, clique em Habilitar conteúdo.</li><li>Siga o arquivo LEIA_PRIMEIRO, que explica a criação da base e o código de recuperação.</li></ol>
-<p>Use dados reais só depois de concluir os testes de validação da prefeitura.</p>
-</article>
-</div>
-<p>Vai atualizar? Guarde a cópia de segurança anterior: os dados convertidos nesta versão não abrem em versões antigas. Para voltar, a equipe de TI precisa dessa cópia.</p>
-</section>
-<section id="tutoriais"><h2>Tutoriais e regras para o dia a dia</h2><p>O botão “Vídeos tutoriais” do aplicativo chega a esta seção. Os vídeos estão em preparação; já há 14 tutoriais escritos, do primeiro acesso ao backup.</p><p><a class="botao" href="tutoriais/index.html">Abrir os 14 tutoriais</a></p><p><a href="regras/auditoria.html">As 62 regras descritas para auditoria</a>, com situação, consequência e fontes.</p><p><a href="regras/index.html">Regras do sistema por tema</a> — credenciamento, rodízio, Pré-OS, OS, medição, avaliação, pagamento, segurança e backup.</p><p>Para testar, use uma base de treinamento e dados fictícios. O índice dos tutoriais traz a sequência do cadastro ao pagamento e ao fechamento com backup.</p></section>
-<section id="ferramenta"><h2>O Credenciamento 11.3</h2>
-<p>Quem contrata por credenciamento precisa responder a uma pergunta simples: por que esta empresa, neste serviço, neste dia? O Credenciamento organiza os pedidos de serviço do município, indica a empresa pelo rodízio e registra a execução e o pagamento, para que a resposta esteja sempre guardada.</p>
-<h3>Cadastros e credenciamento</h3>
-<ul>
-<li>Entidades demandantes, empresas, atividades e serviços, com preços fixados pela Administração.</li>
-<li>A empresa é credenciada na atividade, e o credenciamento vale para os serviços dela.</li>
-<li>Inativar um cadastro conserva o histórico.</li>
-</ul>
-<h3>Rodízio objetivo</h3>
-<ol>
-<li>Uma fila por atividade; a empresa da vez é a de menor posição entre as disponíveis. Só o rodízio indica a empresa, e ninguém escolhe à mão.</li>
-<li>Quem aceita a Pré-OS recebe a Ordem de Serviço e vai para o fim da fila.</li>
-<li>Em situação regular, quem recusa ou deixa o prazo da Pré-OS vencer perde a vez e recebe uma falta de recusa. Impedimento cadastral pode suprimir esses efeitos.</li>
-<li>Média da avaliação abaixo da nota de corte gera 1 falta; a avaliação não move a fila.</li>
-<li>Ao atingir o limite de faltas da origem, há suspensão conforme a política do documento. Ao fim do prazo, o sistema confere o retorno; outros impedimentos podem continuar.</li>
-</ol>
-<h3>Do pedido ao pagamento</h3>
-<ul>
-<li>Pré-OS com prazo de resposta, aceite com empenho, Ordem de Serviço, recusa e cancelamentos.</li>
-<li>Cancelar uma Ordem de Serviço exige motivo e não gera falta nem pagamento.</li>
-<li>Medição final e única, avaliação com 10 critérios e pagamento só do que foi executado e medido, uma vez por Ordem de Serviço.</li>
-<li>O programa registra o pagamento; ele não transfere dinheiro.</li>
-<li>Faltas, suspensões e reativação seguem os parâmetros do edital definidos na base.</li>
-</ul>
-<h3>Consultas, documentos e auditoria</h3>
-<ul>
-<li>Dossiê por empresa, com busca por nome ou CNPJ, relatórios e documentos em PDF, com data e hora de Brasília.</li>
-<li>Trilha de auditoria de cada ato, com autor, data e hora. O histórico só cresce: o próprio banco de dados recusa alterar ou apagar um registro gravado.</li>
-<li>Depois de gerar um PDF, use Abrir ou Imprimir no leitor.</li>
-</ul>
-<h3>Usuários e segurança</h3>
-<ul>
-<li>Cada pessoa entra com a própria senha e o próprio perfil: Gestor, Operador ou Consulta.</li>
-<li>Cada pessoa troca a própria senha em Minha senha, e o Gestor redefine a de outra pessoa em Gestão de usuários. Recomenda-se ter dois Gestores.</li>
-<li>Inatividade: o padrão é de 8 horas, alterável ao criar ou abrir a base. Mouse e teclado renovam o prazo enquanto a sessão está válida. Depois de vencer, o próximo gesto pede a senha da mesma base.</li>
-<li>Termo de recuperação: o código aparece uma vez, com chaves e rótulos dos grupos 1 a 8. Guarde o documento em local protegido.</li>
-<li>A base fica no próprio computador, cifrada, e o programa funciona sem internet. O diagnóstico de erros é local e sem dados pessoais.</li>
-</ul>
-<h3>Cópia de segurança e fechamento</h3>
-<ul>
-<li>Salvar e fechar faz a cópia de segurança e guarda o recibo. Aguarde a mensagem Backup salvo e conferido.</li>
-<li>Para sair com backup depois da inatividade, entre de novo e use Salvar e fechar. Sair da tela de senha não cria backup de fechamento.</li>
-</ul>
-<h3>Central de testes</h3>
-<p>Roda dentro do próprio programa, em base fictícia e separada, um ciclo completo com até 1.000 Ordens de Serviço, e entrega o relatório da execução. Um resultado de teste não substitui a validação humana.</p>
-<h3>Onde funciona</h3>
-<p>Windows 10 ou 11 de 64 bits, Mac com chip Apple e Linux de 64 bits. A equipe de TI da Prefeitura pode ajudar na instalação.</p>
-</section><section class="aviso"><h2>Limites conhecidos da 11.3</h2><p>Restauração completa pela interface, recuperação pelo Termo, Reiniciar faltas e encerramento de OS por expiração ainda indisponíveis. Revogação isolada não existe na interface: o procedimento indicado é inativar/inabilitar a empresa. Não há trabalho simultâneo na mesma base em várias máquinas.</p></section><section id="ajuda">
-<h2>Ajuda</h2>
-<ul>
-<li><strong>Pastas e ajuda:</strong> mostra onde ficam bases e documentos e permite abrir as pastas disponíveis.</li>
-<li><strong>Uso nesta versão:</strong> apresenta orientações e limites da versão instalada, dentro do aplicativo.</li>
-<li><strong>Sobre:</strong> informa a versão e os dados técnicos. Anote esses dados ao comunicar uma dificuldade à equipe responsável pelo credenciamento do município.</li>
-<li><strong>Central de testes:</strong> usa dados fictícios. Consulte o catálogo e o relatório da execução; um resultado de teste não substitui a validação humana da versão.</li>
-</ul>
-<p>Ao pedir ajuda, descreva a tela, o que tentou fazer e a mensagem exibida. Não envie senhas, código de recuperação, Termo ou base municipal por este portal. Preserve seus backups e guarde o Termo em local protegido.</p>
-<p>Este portal público distribui informações e versões publicadas; não contém o código-fonte do aplicativo.</p>
-</section>
-<section><details id="equipe-ti"><summary>Para a equipe de TI</summary>
-<p>Windows, Mac e Linux: build a26m4, do mesmo código-fonte. Windows: pin 844cd83a4398. Mac (Apple Silicon): pin 4d8e7d3ae515, assinado com Developer ID e notarizado pela Apple. Linux amd64: pin 4d8e7d3ae515. O cálculo do pin no Windows é outro, por isso o valor difere. A conferência de integridade está no SHA256.txt. No Linux, o cofre de chaves usa o Secret Service da sessão (por exemplo, o chaveiro do GNOME): é preciso uma sessão gráfica normal, com o chaveiro desbloqueado.</p>
-<ul><li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/LEIA-PRIMEIRO-11.3.md">Leia antes de instalar</a></li>
-<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/GUIA-TI-11.3.md">Guia de instalação para a equipe de TI</a></li>
-<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.0.0-beta.11.3/SHA256.txt">Conferência de integridade — SHA256.txt</a></li>
-<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/excel-v207.248.0015-rc1/SHA256-Excel-RC1.txt">Conferência de integridade do Excel — SHA256-Excel-RC1.txt</a></li>
-<li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/tag/v208.0.0-beta.11.3">Arquivos e detalhes da versão</a></li></ul>
-<h3>Como conferir o instalador</h3><p>No PowerShell, na pasta onde baixou o arquivo, execute:</p><pre><code>Get-FileHash -Algorithm SHA256 -LiteralPath '.\Setup-Credenciamento-Beta11-x64-844cd83a43984a1d.exe'</code></pre><p>Compare todos os caracteres de Hash com:</p><p><code>bb0da5ab6e39fcdba047f0b8d97bd95579d988d749b44f247e49df6e8f6b3476</code></p><p>Maiúsculas e minúsculas representam o mesmo valor. Se houver diferença, não instale; peça à TI a conferência do arquivo. Confira também o SHA256.txt da mesma release.</p><p>Antes de atualizar uma base, preserve o backup anterior. <strong>A base convertida ao perfil 109 não abre em versões antigas.</strong> Reinstalar o programa antigo não desfaz a conversão; o retorno exige o backup anterior e procedimento validado pela TI.</p><p>Na conferência Windows da a26, 55 dos 70 casos do roteiro tiveram o resultado esperado e 15 ficaram pendentes; esse roteiro será refeito na a26m4. Foram declarados dois desvios adicionais de baixa gravidade: abrir pasta dos documentos pode não pedir senha com a sessão vencida; Encerrar do topo, com a confirmação de fechamento já aberta e a sessão vencida, pode oferecer Forçar/Continuar. Continue e faça novo gesto para entrar novamente. Uma frase de ajuda do Termo pode permanecer no passo seguinte.</p></details></section>
-<section>
-<h2>Licença</h2>
-<p>O sistema é distribuído sob a <strong>TPGL v1.1</strong> (Copyright © 2026 Luís Maurício Junqueira Zanin e contribuintes), uma licença <em>source-available</em> para software de interesse público.</p>
-<ul>
-<li><strong>Validação pública:</strong> a licença assegura a transparência e a auditabilidade do sistema, em linha com a Lei de Acesso à Informação (Lei nº 12.527/2011).</li>
-<li><strong>Validação do código pelos contribuidores:</strong> o código-fonte é auditado pelos contribuidores cadastrados no repositório do projeto. O acesso é concedido pela equipe responsável.</li>
-<li><strong>Uso por órgão público:</strong> o uso interno pela Administração é permitido nos termos da licença. O uso comercial concorrente é reservado.</li>
-<li><strong>Abertura futura:</strong> cada versão passa a valer como Apache License 2.0 quatro anos depois da sua publicação.</li>
-</ul>
-<p>Texto completo: <a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/blob/main/LICENSE">LICENSE</a>. Em caso de dúvida, vale o texto da licença.</p>
-</section>
-<section>
-<h2>Contato</h2>
-<p>Para conhecer o projeto ou pedir acesso como contribuidor, fale com a equipe responsável pelo credenciamento do seu município.</p>
-</section>
-</main>
-<footer>Licença TPGL v1.1. Esta página não contém código-fonte. Portal atualizado em 06/11/2026 para a versão 11.3, homologada e congelada.</footer>
-</body>
-</html>
+<section id="situacao" class="aviso"><p>Versão atual do portal: <strong>Credenciamento 12 · 208.12.0 · RC4</strong>. <a href="historico-11.3.html">11.3 — versão congelada</a>.</p><h2>Credenciamento 12 — candidata ao congelamento (RC4)</h2><p>Candidata ao congelamento (RC4), em validação: macOS primeiro, depois Linux e Windows.</p><p>Versão do aplicativo: <strong>208.12.0</strong>. Destinada aos testadores humanos do projeto. Comece com dados fictícios e preserve as cópias de segurança anteriores.</p><p>A homologação municipal deve ocorrer antes da utilização de dados reais, para conhecer, compreender e validar as regras de negócio, a lógica operacional e os procedimentos do sistema.</p></section>
+<section id="download" class="baixar"><h2>Baixar a RC4 para testar</h2><p>A validação segue esta ordem: macOS, Linux e Windows. Disponibilidade para baixar não significa validação concluída.</p>
+<div class="opcoes-so" aria-label="Escolha seu sistema">
+<a class="botao opcao-so" id="opcao-windows" href="#baixar-windows"><img src="marca/so-windows.svg" width="32" height="32" alt=""><span>Windows</span></a>
+<a class="botao opcao-so" id="opcao-linux" href="#baixar-linux"><img src="marca/so-linux.svg" width="32" height="32" alt=""><span>Linux</span></a>
+<a class="botao opcao-so" id="opcao-mac" href="#baixar-mac"><img src="marca/so-macos.svg" width="32" height="32" alt=""><span>macOS</span></a>
+</div><p id="sistema-detectado" class="sugestao" role="status">Escolha seu sistema acima para ver os arquivos e como instalar.</p>
+<h3>Arquivos e como instalar</h3><div class="downloads">
+<article class="download-card" id="baixar-mac"><h3>macOS</h3><p class="plataforma">Apple Silicon · DMG assinado e notarizado</p><p>Em validação</p><p><a class="botao confirmacao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.12.0-rc4/Credenciamento-12-Mac-rc4t10.dmg">Baixar Credenciamento-12-Mac-rc4t10.dmg</a></p><p class="metadados">12511539 bytes · SHA-256:<br><code>9ce56578ac3f0e993fdee9d9eb58b0c9eb0e2e7430fd0f50c79f7f043a2e91fb</code></p><h4>Como instalar</h4><ol><li>Baixe e abra o arquivo .dmg assinado e notarizado do site do projeto.</li><li>Arraste o Credenciamento para Aplicativos.</li><li>Abra o Credenciamento em Aplicativos. Na primeira abertura, confirme o aviso do macOS; se o Gatekeeper bloquear, confira a origem com a TI.</li></ol></article>
+<article class="download-card" id="baixar-linux"><h3>Linux</h3><p class="plataforma">amd64 · .deb e .AppImage</p><p>Versão de teste</p><p><a class="botao confirmacao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.12.0-rc4/Credenciamento-12-Linux-amd64-rc4t10.deb">Baixar Credenciamento-12-Linux-amd64-rc4t10.deb</a></p><p class="metadados">13340860 bytes · SHA-256:<br><code>85ab8ecad2c7d11a5ee7f5a8bbbba32737f1201367dddd394fb1cb1bebf372c3</code></p><p><a class="botao confirmacao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.12.0-rc4/Credenciamento-12-Linux-amd64-rc4t10.AppImage">Baixar Credenciamento-12-Linux-amd64-rc4t10.AppImage</a></p><p class="metadados">90814968 bytes · SHA-256:<br><code>d797e4070b6f5d29ee26272cfaa6f5dab65b8b2dfae53281e03398faedad4ae1</code></p><h4>Como instalar</h4><ol><li>Baixe o .deb ou AppImage adequado ao seu sistema no site do projeto.</li><li>Para o .deb, abra o terminal na pasta do download e execute: <code>sudo apt install ./arquivo.deb</code> (substitua arquivo.deb pelo nome baixado). Abra o aplicativo pelo menu.</li><li>Para o AppImage, nas propriedades do arquivo, permita sua execução e dê duplo clique.</li><li>Se faltarem dependências, instale as indicadas pelo pacote, com apoio da TI (WebKitGTK para .deb ou FUSE para AppImage).</li></ol></article>
+<article class="download-card" id="baixar-windows"><h3>Windows</h3><p class="plataforma">x64 · instalador .exe</p><p>Versão de teste</p><p><a class="botao confirmacao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/download/v208.12.0-rc4/Credenciamento-12-Windows-x64-rc4t10.exe">Baixar Credenciamento-12-Windows-x64-rc4t10.exe</a></p><p class="metadados">225013357 bytes · SHA-256:<br><code>a3d2ec1dc77da0aca9de72decfbfd2f4b0689c8fc8a2a80920ef5b0d4cfd4d08</code></p><h4>Como instalar</h4><ol><li>Baixe o instalador .exe do site do projeto.</li><li>Para instalar só para você, dê duplo clique. Para todos os usuários (por exemplo, em uma rede corporativa do Sebrae), clique com o botão direito e escolha Executar como administrador; peça apoio à TI se precisar.</li><li>Se faltar o Microsoft Edge WebView2, instale o componente indicado pelo instalador.</li><li>Se o SmartScreen avisar que o instalador não é assinado, confira a origem com a TI antes de prosseguir.</li><li>Abra o Credenciamento pelo menu Iniciar.</li></ol></article>
+</div><article class="download-card excel" id="baixar-excel"><h3>Excel C9.2.1 — homologada e congelada</h3><p>A linha Excel mantém sua versão homologada e congelada, separada da candidata do aplicativo.</p><p><a class="botao" href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/tag/excel-v207.248.0015-rc1">Baixar a planilha e as instruções</a></p><p>Windows com Excel para desktop. Extraia o ZIP completo e siga o LEIA_PRIMEIRO que o acompanha.</p></article>
+<p>Se um único caractere do SHA-256 diferir, não instale: baixe novamente e peça ajuda à equipe. A conferência detecta mudança no arquivo; não substitui a validação do sistema.</p><p><a href="SHA256SUMS.txt">SHA256SUMS.txt</a> · <a href="rc4-manifesto.json">Fonte e manifesto dos pacotes</a></p></section>
+<section id="ferramenta"><h2>O que é o Credenciamento 12</h2><p>O aplicativo organiza entidades demandantes, empresas, atividades e serviços, o credenciamento dos prestadores e o fluxo de Pré-OS, Ordem de Serviço, medição, avaliação e registro de pagamento. O rodízio indica a empresa segundo as regras da base e conserva o histórico das operações.</p><p>Os dados ficam no computador. O programa registra o pagamento; não transfere dinheiro. A Central de testes usa bases fictícias, e seus resultados precisam ser lidos junto com o relatório de cada execução.</p><p>A comparação da V12 com a planilha C9.2.1 será apresentada com contagem medida e fonte verificável quando o recibo da RC4 estiver disponível. Esta página não declara paridade da V12.</p></section>
+<section id="novidades"><h2>Notas da versão RC4</h2><p>Credenciamento 12 · 208.12.0 · RC4, fonte <code>e4d982f99</code>. Versão de teste para as validações finais; use somente dados fictícios.</p><h3>O que mudou desde a RC3</h3><ul><li><strong>Central de testes em janela própria:</strong> abre ao lado da janela principal, com 48 cenários de dados fictícios em 7 baterias, nos modos rápido, assistir, manual e faça você mesmo, com progresso total, cena atual, relatório A4 e lista de erros em CSV.</li><li><strong>Janela principal com desenho fixo:</strong> 1280 × 840 em escala uniforme, centralizada em tela cheia e atendendo telas a partir de 1366 × 768, com a barra superior inteira.</li><li><strong>Entrada mais segura:</strong> Usuário e Senha só aparecem depois de conferir a base escolhida, e a troca de base pode ser cancelada.</li><li><strong>Serviços:</strong> com um serviço selecionado, só o botão que se aplica fica ativo: Inativar para serviço ativo, Reativar para serviço inativo.</li><li><strong>Relatórios:</strong> modelos A4 com a identidade do município, seleção, busca e prévias corrigidas; o PDF de Faltas pergunta se imprime só a selecionada ou todas.</li><li><strong>Novo design visual:</strong> identidade azul-marinho e ciano, ícones por sentido, selos acessíveis, avisos identificados pela ação e respeito à preferência de movimento reduzido.</li><li><strong>CNPJ alfanumérico e PDF no botão Imprimir:</strong> continuam em teste.</li></ul><h3>Resultados dos testes automáticos</h3><div class="tabela-rolavel"><table><caption>Central completa na janela do aplicativo, por sistema. C00 é o controle negativo: o resultado esperado é DIVERGE.</caption><thead><tr><th scope="col">Bateria</th><th scope="col">macOS</th><th scope="col">Linux</th><th scope="col">Windows</th></tr></thead><tbody><tr><th scope="row">Avaliação e punições</th><td>Passou (10 de 10)</td><td>Passou (10 de 10)</td><td>Passou (10 de 10)</td></tr><tr><th scope="row">Cadastros e inativações</th><td>Passou (8 de 8)</td><td>Passou (8 de 8)</td><td>Passou (8 de 8)</td></tr><tr><th scope="row">Documentos, consultas e sigilo</th><td>Passou (4 de 4)</td><td>Passou (4 de 4)</td><td>Passou (4 de 4)</td></tr><tr><th scope="row">Parâmetros e valores</th><td>Passou (8 de 8)</td><td>Passou (8 de 8)</td><td>Passou (8 de 8)</td></tr><tr><th scope="row">Ponto Zero</th><td>Passou (4 de 4)</td><td>Passou (4 de 4)</td><td>Passou (4 de 4)</td></tr><tr><th scope="row">Rodízio e vencimentos</th><td>Passou (10 de 10)</td><td>Passou (10 de 10)</td><td>Passou (10 de 10)</td></tr><tr><th scope="row">Telas, repetição e datas</th><td>Passou (4 de 4)</td><td>Passou (4 de 4)</td><td>Passou (4 de 4)</td></tr><tr><th scope="row">Janela: C13, C39, C40, C41 e C46</th><td>Passou (5 de 5)</td><td>Passou (5 de 5)</td><td>Passou (5 de 5)</td></tr></tbody></table></div><p>macOS: Release de ensaio da mesma fonte (CRED_BUILD_ID rc4-ensaio, sem assinatura), na janela real do macOS 27; o DMG publicado é a rc4t10 assinada e notarizada da mesma fonte.</p><p>Linux: O .deb publicado instalado em Ubuntu 24.04 x64 (WebKitGTK 2.52.6) sob Xvfb, GitHub Actions 43280983998.</p><p>Windows: O app-desktop.exe do instalador publicado (sha256 76bb9fee…) em Windows 11 ARM com emulação x64, VM Parallels.</p><h3>Pendências conhecidas</h3><ul><li>Na lista de serviços, o serviço inativo ainda não aparece marcado.</li><li>Os avisos vermelhos de pendência ficam para a próxima versão.</li><li>Um teste automático de metadados (C31) e ajustes de layout apontados pela medição automática ficam para a próxima rodada.</li><li>No Windows, o código de conferência da fonte mostrado em Sobre é calculado de outro modo e difere do macOS e do Linux; a fonte é a mesma.</li></ul><p>Confira esses pontos durante o teste. Os resultados automáticos e a disponibilidade dos pacotes não substituem a homologação municipal.</p></section>
+<section id="limites" class="aviso"><h2>Limites da versão de teste</h2><p>A RC4 continua em validação. A assinatura, a notarização e os resultados dos testes precisam corresponder aos pacotes finais do mesmo commit. As funcionalidades descritas devem ser conferidas no teste humano.</p><p>Os tutoriais da 11.3 são históricos. Uso compartilhado em servidor e SaaS permanecem em preparação.</p></section>
+<section id="tutoriais"><h2>Orientações para o teste</h2><p>Use uma base de treinamento. Registre a versão exibida em Sobre e o cenário executado. Os tutoriais e as regras publicados para a 11.3 continuam disponíveis no histórico abaixo; precisam ser conferidos antes de serem usados como orientação da V12.</p></section>
+<section id="ajuda"><h2>Como relatar um problema</h2><p>Encaminhe o relato à <strong>equipe responsável pelo credenciamento do seu município</strong>, pelo canal de suporte que você já utiliza no projeto. Informe a versão em Sobre, seu sistema operacional, a tela, os passos realizados, o resultado esperado e a mensagem que apareceu. Se possível, use uma captura com dados fictícios.</p><p>Não envie senhas, Termo, código de recuperação ou a base municipal. Preserve as cópias de segurança.</p></section>
+<section id="saas"><h2>SaaS — em breve</h2><p>Está prevista uma versão para rodar localmente na prefeitura, primeiro em servidor Linux, permitindo que diferentes secretarias solicitem o rodízio. Essa modalidade ainda está em preparação; não integra os pacotes RC4 disponíveis nesta página.</p></section>
+<section><details id="historico"><summary>Versões anteriores e documentação histórica</summary><p>A 11.3 fica como histórico. Seus resultados e declarações não se transferem à V12.</p><ul><li><a href="historico-11.3.html">Portal anterior da 11.3</a></li><li><a href="lancamento-11.3.html">Apresentação histórica da 11.3</a></li><li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/tag/v208.0.0-beta.11.3">Release 11.3</a></li><li><a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/releases/tag/v208.0.0-beta.11.2.1">Release 11.2.1</a></li></ul></details></section>
+<section><h2>Licença</h2><p>TPGL v1.1. Consulte o <a href="https://github.com/rwv8gscs8g-blip/credenciamento-v208/blob/main/LICENSE">texto da licença</a> e suas condições. O portal público não contém o código-fonte do aplicativo.</p></section>
+</main><footer>Credenciamento 12 · candidata RC4 · preparação de 09/11/2026.</footer><script>
+(function () {
+ const ua = navigator.userAgent || '';
+ const platform = (navigator.userAgentData && navigator.userAgentData.platform) || navigator.platform || '';
+ const mobile = /Android|iPhone|iPad|iPod/i.test(ua) || (/Mac/i.test(platform) && navigator.maxTouchPoints > 1);
+ const system = mobile ? null : /Win/i.test(platform) ? 'windows' : /Mac/i.test(platform) ? 'mac' : /Linux/i.test(platform) ? 'linux' : null;
+ if (!system) return;
+ const labels = {windows: 'Windows', linux: 'Linux', mac: 'macOS'};
+ const button = document.getElementById('opcao-' + system);
+ button.classList.add('sistema-atual');
+ button.setAttribute('aria-describedby', 'sistema-detectado');
+ document.getElementById('sistema-detectado').textContent = 'Seu sistema: ' + labels[system] + ' (selecionado automaticamente). Você pode escolher outra opção.';
+})();
+</script></body></html>
