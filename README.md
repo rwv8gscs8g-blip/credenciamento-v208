@@ -1,8 +1,8 @@
 # Credenciamento 12 — RC4
 
-Credenciamento 12 — candidata ao congelamento (RC4).
+Credenciamento 12 — versão para testadores (RC4).
 
-Candidata ao congelamento (RC4), em validação: macOS primeiro, depois Linux e Windows.
+Versão para testadores em macOS, Windows e Linux, com a Central de testes completa aprovada nos três sistemas.
 
 Versão do aplicativo: 208.12.0. Destinada aos testadores humanos.
 
