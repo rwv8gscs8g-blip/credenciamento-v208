@@ -1,33 +1,33 @@
 {
   "version": "208.12.0",
-  "tag": "v208.12.0-rc4t13",
-  "source_sha": "bc1d044adc09f8402a1d27d0b50f1467612803de",
+  "tag": "v208.12.0-rc4t14",
+  "source_sha": "8680a8a1d4e435574f25dda0d2810f54d8a6183c",
   "congelamento": null,
-  "recibo_sha256": "b3c2221279309a985422ed2a389dbdbca224a352debd7ea8de0242e0a9144e2c",
+  "recibo_sha256": "6783cd76bdec433885991fc0c9ef51b7206e61408c3112c86c628eafea3aec40",
   "assets": {
     "MAC": {
-      "name": "Credenciamento-12-Mac-rc4t13.dmg",
-      "sha256": "c61a014018e387d31e0bed7bdbaff6709ceeeb04e4065c8541c67dc235f2bf73",
-      "bytes": 12542560,
-      "source_sha": "bc1d044adc09f8402a1d27d0b50f1467612803de"
+      "name": "Credenciamento-12-Mac-rc4t14.dmg",
+      "sha256": "28d9bf75bd30a0124978386ef3e2b9770417848cee83522c2f8b3ae479b119a1",
+      "bytes": 12547812,
+      "source_sha": "8680a8a1d4e435574f25dda0d2810f54d8a6183c"
     },
     "LINUX_DEB": {
-      "name": "Credenciamento-12-Linux-amd64-rc4t13.deb",
-      "sha256": "0ee3edcd6931af7d169af9957fa95b5bf15b31222f3ad46d3ef84ca3654dd4c7",
-      "bytes": 13367386,
-      "source_sha": "bc1d044adc09f8402a1d27d0b50f1467612803de"
+      "name": "Credenciamento-12-Linux-amd64-rc4t14.deb",
+      "sha256": "f5c3123ad46167505069b90e3da3e7a93a6d2a649e8701373b5cbddb3c869cf2",
+      "bytes": 13375062,
+      "source_sha": "8680a8a1d4e435574f25dda0d2810f54d8a6183c"
     },
     "LINUX_APPIMAGE": {
-      "name": "Credenciamento-12-Linux-amd64-rc4t13.AppImage",
-      "sha256": "2edf55fa64b2124ed2ac4f64f0c9b976499b377c57c613cfd745a7a4a3c391ed",
-      "bytes": 90843640,
-      "source_sha": "bc1d044adc09f8402a1d27d0b50f1467612803de"
+      "name": "Credenciamento-12-Linux-amd64-rc4t14.AppImage",
+      "sha256": "1eb2894041d3e36f083a8857ff030e8e5b2edf6233cd7c01d499c78fbb7c41bd",
+      "bytes": 90831352,
+      "source_sha": "8680a8a1d4e435574f25dda0d2810f54d8a6183c"
     },
     "WINDOWS": {
-      "name": "Credenciamento-12-Windows-x64-rc4t13.exe",
-      "sha256": "5ecc94a691d920b687f420424f690d9aea98ecda4981691b1fb08bb6dd7260cf",
-      "bytes": 225078890,
-      "source_sha": "bc1d044adc09f8402a1d27d0b50f1467612803de"
+      "name": "Credenciamento-12-Windows-x64-rc4t14.exe",
+      "sha256": "359c6b12739ce6a17888e438310296d5b1b8bd29de372ea7fb626a06cdba3bf1",
+      "bytes": 225020701,
+      "source_sha": "8680a8a1d4e435574f25dda0d2810f54d8a6183c"
     }
   }
 }

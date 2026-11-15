@@ -253,3 +253,8 @@ code { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-si
 /* Downloads: o cartão do sistema detectado vem primeiro e destacado (LIVRO 509). */
 .download-card.sistema-atual { border:2px solid var(--cyan-500); box-shadow:0 0 0 5px rgba(0,194,219,.15),var(--shadow-card); }
 .seu-sistema { display:inline-block; margin-bottom:4px; padding:2px 10px; border-radius:999px; font-size:12px; font-weight:800; color:#fff; background:var(--navy-800); }
+/* LIVRO 520: Linux em dois grupos, Intel/AMD (x86_64) e ARM (arm64). */
+.download-card .arquitetura{margin:14px 0 6px;padding-top:10px;border-top:1px solid var(--borda, #D9E2EC);font-size:.95rem}
+.download-card .arquitetura:first-of-type{border-top:0;padding-top:0}
+.download-card .arquitetura-atual{background:var(--destaque-suave, #EAF6EF);border-radius:8px;padding:8px 10px}
+.download-card .arquitetura .seu-sistema{margin-right:8px}
