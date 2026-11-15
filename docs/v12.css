@@ -258,3 +258,5 @@ code { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-si
 .download-card .arquitetura:first-of-type{border-top:0;padding-top:0}
 .download-card .arquitetura-atual{background:var(--destaque-suave, #EAF6EF);border-radius:8px;padding:8px 10px}
 .download-card .arquitetura .seu-sistema{margin-right:8px}
+/* LIVRO 523: aviso quando o script troca os botões pelos do manifesto mais recente. */
+.versao-atualizada{margin:0 0 14px;padding:10px 14px;border-radius:8px;background:var(--destaque-suave, #EAF6EF);border:1px solid #9BD3B0;font-size:.95rem}
