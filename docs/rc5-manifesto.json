@@ -1,16 +1,16 @@
 {
   "version": "208.12.0",
-  "tag": "v208.12.0-rc5t6",
-  "source_sha": "95210a40cfbd65c28d2bf110979c515b6731ef5d",
+  "tag": "v208.12.0-rc5t7",
+  "source_sha": "ce74efda77bde92457210daed61ee43f2b3f46f6",
   "congelamento": null,
   "recibo_sha256": null,
   "assets": {
     "MAC": {
-      "name": "Credenciamento-12-Mac-rc5t6.dmg",
-      "sha256": "2781995a86d60e3f659e3c72dc7ac6523a0158220a9095e1896c266b12c51ed4",
-      "bytes": 12544756,
-      "source_sha": "95210a40cfbd65c28d2bf110979c515b6731ef5d",
-      "tag": "v208.12.0-rc5t6"
+      "name": "Credenciamento-12-Mac-rc5t7.dmg",
+      "sha256": "e33b99ed4b4a19c1d7b66b27d9e30e015fa5c75b716dd83b769201f7cf89d2f9",
+      "bytes": 12577652,
+      "source_sha": "ce74efda77bde92457210daed61ee43f2b3f46f6",
+      "tag": "v208.12.0-rc5t7"
     },
     "LINUX_DEB": {
       "name": "Credenciamento-12-Linux-amd64-rc4t14.deb",
@@ -27,11 +27,25 @@
       "tag": "v208.12.0-rc4t14"
     },
     "WINDOWS": {
-      "name": "Credenciamento-12-Windows-x64-rc4t14.exe",
-      "sha256": "359c6b12739ce6a17888e438310296d5b1b8bd29de372ea7fb626a06cdba3bf1",
-      "bytes": 225020701,
-      "source_sha": "8680a8a1d4e435574f25dda0d2810f54d8a6183c",
-      "tag": "v208.12.0-rc4t14"
+      "name": "Credenciamento-12-Windows-x64-rc5t7.exe",
+      "sha256": "087b64372421a97598596052217b10e4c423a46be98729a40b13de551af2ff24",
+      "bytes": 225090448,
+      "source_sha": "ce74efda77bde92457210daed61ee43f2b3f46f6",
+      "tag": "v208.12.0-rc5t7"
+    },
+    "LINUX_ARM_DEB": {
+      "name": "Credenciamento-12-Linux-arm64-rc5t7.deb",
+      "sha256": "692fe4e204a29822a8a7e6f7394a128ff428f59c86bfe25f6206395c9a913ed5",
+      "bytes": 12593306,
+      "source_sha": "ce74efda77bde92457210daed61ee43f2b3f46f6",
+      "tag": "v208.12.0-rc5t7"
+    },
+    "LINUX_ARM_APPIMAGE": {
+      "name": "Credenciamento-12-Linux-arm64-rc5t7.AppImage",
+      "sha256": "c23a97f07870999a95c2833c9af3901bd4a4991182d9cf5f01f2572b05e82f1c",
+      "bytes": 89864712,
+      "source_sha": "ce74efda77bde92457210daed61ee43f2b3f46f6",
+      "tag": "v208.12.0-rc5t7"
     }
   }
 }
