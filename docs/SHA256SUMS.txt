@@ -1,4 +1,4 @@
-e33b99ed4b4a19c1d7b66b27d9e30e015fa5c75b716dd83b769201f7cf89d2f9  Credenciamento-12-Mac-rc5t7.dmg
+24c769f51d598aa8f898dc43f5afe797ccfcb8aacbabc6fb837df12498725856  Credenciamento-Mac-12.0.46.dmg
 f5c3123ad46167505069b90e3da3e7a93a6d2a649e8701373b5cbddb3c869cf2  Credenciamento-12-Linux-amd64-rc4t14.deb
 1eb2894041d3e36f083a8857ff030e8e5b2edf6233cd7c01d499c78fbb7c41bd  Credenciamento-12-Linux-amd64-rc4t14.AppImage
 087b64372421a97598596052217b10e4c423a46be98729a40b13de551af2ff24  Credenciamento-12-Windows-x64-rc5t7.exe

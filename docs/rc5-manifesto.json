@@ -1,16 +1,16 @@
 {
   "version": "208.12.0",
-  "tag": "v208.12.0-rc5t7",
-  "source_sha": "ce74efda77bde92457210daed61ee43f2b3f46f6",
+  "tag": "v12.0.46-rc6t3",
+  "source_sha": "caca656abccc5af06e95f01fbd0dc0c741225e27",
   "congelamento": null,
   "recibo_sha256": null,
   "assets": {
     "MAC": {
-      "name": "Credenciamento-12-Mac-rc5t7.dmg",
-      "sha256": "e33b99ed4b4a19c1d7b66b27d9e30e015fa5c75b716dd83b769201f7cf89d2f9",
-      "bytes": 12577652,
-      "source_sha": "ce74efda77bde92457210daed61ee43f2b3f46f6",
-      "tag": "v208.12.0-rc5t7"
+      "name": "Credenciamento-Mac-12.0.46.dmg",
+      "sha256": "24c769f51d598aa8f898dc43f5afe797ccfcb8aacbabc6fb837df12498725856",
+      "bytes": 13224761,
+      "source_sha": "caca656abccc5af06e95f01fbd0dc0c741225e27",
+      "tag": "v12.0.46-rc6t3"
     },
     "LINUX_DEB": {
       "name": "Credenciamento-12-Linux-amd64-rc4t14.deb",
@@ -47,5 +47,7 @@
       "source_sha": "ce74efda77bde92457210daed61ee43f2b3f46f6",
       "tag": "v208.12.0-rc5t7"
     }
-  }
+  },
+  "mac_version": "12.0.46",
+  "global_pass": false
 }
